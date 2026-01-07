@@ -28,6 +28,7 @@ $category = mysqli_query($koneksi, "SELECT * FROM category");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODOLIST</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="navbar">
@@ -53,7 +54,7 @@ $category = mysqli_query($koneksi, "SELECT * FROM category");
         </select>
         </form>
     </div>
-    <br>
+
     <div class="filter-sta">
         <form action="" method="get">
         <label>Filter Status</label>
@@ -67,9 +68,9 @@ $category = mysqli_query($koneksi, "SELECT * FROM category");
         <?php } ?>
         </form>
     </div>
-    <br>
+    
     <a href="tambah.php">Tambah</a>
-
+    <br>
     <div class="container">
         <div class="grid">
             <?php while ($todo = mysqli_fetch_assoc($query)) {?> 

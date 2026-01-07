@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: green;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-kat, .filter-sta{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.filter-kat label, .filter-sta label {
+    margin-right: 6px;
+    font-weight: bold;
+}
+.filter-kat select, .filter-sta select {
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+a {
+    display:inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+}
+.container {
+    padding: 0 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.todo-card {
+    padding: 15px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 10px rgb(0, 0, 0,0.08);
+}
+
+.todo-card.dark {
+    background: white;
+}
+.todo-card h3 {
+    margin-bottom: 8px;
+}
+.todo-card p {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+.todo-card a {
+    text-decoration: none;
+    color: green;
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: bold;
+}

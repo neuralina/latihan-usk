@@ -1,4 +1,5 @@
 <?php
+include "cek_login.php";
 include "koneksi.php";
 
 $category_id = $_GET['category'] ?? '';

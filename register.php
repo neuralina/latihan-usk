@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN</title>
+    <title>REGISTER</title>
 </head>
 <body>
     <div class="container">
-    <h2>LOGIN</h2>
+    <h2>REGISTER</h2>
     <form action="proses_register.php" method="post">
         <label>Nama Lengkap:</label><br>
         <input type="text" name="name" required><br><br>
